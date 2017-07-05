@@ -9,7 +9,7 @@ import numpy as np
 from os import listdir
 def loadTrainData():
     l=[]
-    with open('D:\\Kagggle\\digit\\train.csv') as file:
+    with open('D:\\Kaggle\\digit\\train.csv') as file:
          lines=csv.reader(file)
          for line in lines:
              l.append(line) #42001*785
@@ -38,7 +38,7 @@ def nomalizing(array):
 
 def loadTestData():  
     l=[]  
-    with open('D:\\Kagggle\\digit\\test.csv') as file:  
+    with open('D:\\Kaggle\\digit\\test.csv') as file:  
          lines=csv.reader(file)  
          for line in lines:  
              l.append(line)  #28001*784  
@@ -48,7 +48,7 @@ def loadTestData():
 
 #def loadTestResult():  
     #l=[]  
-    #with open('D:\\Kagggle\\digit\\knn_benchmark.csv') as file:  
+    #with open('D:\\Kaggle\\digit\\knn_benchmark.csv') as file:  
          #lines=csv.reader(file)  
          #for line in lines:  
              #l.append(line)  
